@@ -1,0 +1,41 @@
+/* NAVBAR */
+.navbar{
+  height: 80px;
+  background-color: #fff;
+  border: none;
+}
+
+.logo {
+  height: 20px;
+}
+
+.navbar li {
+  display: inline-block;
+  line-height: 80px;
+  padding-right: 10px;
+  color: #332e2e;
+  font-weight: bold;
+}
+
+.btn-navbar {
+  color: #579aff;
+  border: 1px solid #579aff;
+}
+
+.fa-padding {
+  padding-left: 5px;
+}
+
+.hamburger-color {
+  color: #579aff;
+  background-color: #fff;
+}
+
+.lh-80 {
+  line-height: 80px;
+}
+
+.navbar-toggle {
+  margin-top: 23px;
+}
+/* /NAVBAR */
