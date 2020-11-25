@@ -23,9 +23,13 @@
   color: #004aff;
 }
 
-.bold {
+.bold-title {
   font-weight: bold;
   font-size: 40px;
+}
+
+.bold {
+  font-weight: bold;
 }
 
 .float-left {
@@ -50,6 +54,10 @@
 
 .fa-padding-15 {
   padding-left: 15px;
+}
+
+.dark-blue {
+  color: #152c5a;
 }
 /* /COMMON */
 /* NAVBAR */
@@ -162,3 +170,10 @@ form a{
   color: #696969;
 }
 /* /LOGOS SECTION */
+
+/* SECTION 4 COL */
+.section-4-p {
+  font-size: 22px;
+  color: #6c7893;
+}
+/* /SECTION 4 COL */
