@@ -38,4 +38,45 @@
 .navbar-toggle {
   margin-top: 23px;
 }
+
+.margin-top-50 {
+  margin-top: 50px;
+}
 /* /NAVBAR */
+/* JUMBOTRON */
+.jumbontron-bg {
+  height: 500px;
+  background-image: url("../img/bg-pesci-non-animato.jpg");
+}
+
+.jumbo-title {
+  color: #fff;
+
+}
+
+.jumbo-title h1 {
+  font-size: 55px;
+  font-weight: bold;
+}
+
+.jumbo-title p {
+  font-size: 23px;
+}
+
+.jumbo-form {
+  background-color: #fff;
+  height: 375px;
+  border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* JUMBOTRON *//
