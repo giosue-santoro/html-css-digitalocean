@@ -1,3 +1,57 @@
+/* COMMON */
+.margin-top-50 {
+  margin-top: 50px;
+}
+
+.margin-bottom-50 {
+  margin-bottom: 50px;
+}
+
+.margin-bottom-30 {
+  margin-bottom: 30px;
+}
+
+.margin-top-30 {
+  margin-top: 30px;
+}
+
+.margin-top-20 {
+  margin-top: 20px;
+}
+
+.color-blue {
+  color: #004aff;
+}
+
+.bold {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.float-left {
+  float: left;
+}
+
+.google {
+  height: 20px;
+}
+
+.height-500 {
+  height: 500px;
+}
+
+.logos-height {
+  height: 45px;
+}
+
+.fa-padding {
+  padding-left: 5px;
+}
+
+.fa-padding-15 {
+  padding-left: 15px;
+}
+/* /COMMON */
 /* NAVBAR */
 .navbar{
   height: 80px;
@@ -22,14 +76,6 @@
   border: 1px solid #579aff;
 }
 
-.fa-padding {
-  padding-left: 5px;
-}
-
-.hamburger-color {
-  color: #579aff;
-  background-color: #fff;
-}
 
 .lh-80 {
   line-height: 80px;
@@ -38,14 +84,10 @@
 .navbar-toggle {
   margin-top: 23px;
 }
-
-.margin-top-50 {
-  margin-top: 50px;
-}
 /* /NAVBAR */
+
 /* JUMBOTRON */
 .jumbontron-bg {
-  height: 500px;
   background-image: url("../img/bg-pesci-non-animato.jpg");
 }
 
@@ -65,18 +107,58 @@
 
 .jumbo-form {
   background-color: #fff;
-  height: 375px;
+  height: 400px;
   border-radius: 10px;
 }
 
+.form-btn-1 {
+  background-color: #579aff;
+  color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  padding: 5px 0 5px 20px;
+}
 
+.form-btn-2 {
+  background-color: #fff;
+  color: #555555;
+  outline: none;
+  border: none;
+  margin-top: 10px;
+  border-radius: 5px;
+  width: 100%;
+  box-shadow: 5px 8px 15px rgba(0, 0, 0, 0.1);
+  padding: 5px 0;
+}
 
+form {
+  padding: 0 15px;
+}
 
-
-
-
-
-
-
-
+form a{
+  text-decoration: underline;
+}
 /* JUMBOTRON *//
+
+/* LOGOS SECTION */
+.grey-bg {
+  background-color: grey;
+}
+
+.logo-list > li {
+  display: inline-block;
+  list-style-type: none;
+}
+
+.logos-padding {
+  padding-right: 29px;
+  margin-top: 15px;
+}
+
+.logo-title {
+  font-weight: bold;
+  color: #696969;
+}
+/* /LOGOS SECTION */
