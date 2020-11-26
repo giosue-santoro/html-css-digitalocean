@@ -65,7 +65,7 @@ html, body {
 }
 
 .fa-padding-15 {
-  padding-left: 15px;
+  padding: 0 15px;
 }
 
 .dark-blue {
@@ -202,7 +202,7 @@ form a{
 }
 /* /SECTION 4 COL */
 
-/* SLIDER */
+/* FIRST SLIDER */
 .slider-dots > span {
   content: "";
   border: 1px solid #004aff;
@@ -216,7 +216,20 @@ form a{
   background-color: #004aff;
 }
 
+.responsive {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+/* /FIRST SLIDER */
+
+/* CUSTOMER SERVICE SECTION */
 
 
 
-/* /SLIDER */
+
+
+
+
+/* /CUSTOMER SERVICE SECTION */
