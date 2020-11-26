@@ -59,10 +59,17 @@
 .dark-blue {
   color: #152c5a;
 }
+
+.p-blue {
+  color: #6c7893;
+}
+
+.padding-right-100 {
+  padding-right: 100px;
+}
 /* /COMMON */
 /* NAVBAR */
 .navbar{
-  height: 80px;
   background-color: #fff;
   border: none;
 }
@@ -115,7 +122,6 @@
 
 .jumbo-form {
   background-color: #fff;
-  height: 400px;
   border-radius: 10px;
 }
 
@@ -175,5 +181,15 @@ form a{
 .section-4-p {
   font-size: 22px;
   color: #6c7893;
+}
+
+.list-4-col {
+  border-left: 1px solid #696969;
+}
+
+.list-4-col > li {
+  list-style-type: none;
+  margin-top: 20px;
+  color: #696969;
 }
 /* /SECTION 4 COL */
