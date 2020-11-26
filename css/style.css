@@ -1,4 +1,8 @@
 /* COMMON */
+html, body {
+  overflow-x: hidden;
+}
+
 .margin-top-50 {
   margin-top: 50px;
 }
@@ -7,16 +11,24 @@
   margin-bottom: 50px;
 }
 
-.margin-bottom-30 {
-  margin-bottom: 30px;
-}
-
 .margin-top-30 {
   margin-top: 30px;
 }
 
 .margin-top-20 {
   margin-top: 20px;
+}
+
+.margin-bottom-30 {
+  margin-bottom: 30px;
+}
+
+.margin-bottom-80 {
+  margin-bottom: 80px;
+}
+
+.padding-right-100 {
+  padding-right: 100px;
 }
 
 .color-blue {
@@ -62,10 +74,6 @@
 
 .p-blue {
   color: #6c7893;
-}
-
-.padding-right-100 {
-  padding-right: 100px;
 }
 /* /COMMON */
 /* NAVBAR */
@@ -193,3 +201,22 @@ form a{
   color: #696969;
 }
 /* /SECTION 4 COL */
+
+/* SLIDER */
+.slider-dots > span {
+  content: "";
+  border: 1px solid #004aff;
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+  display: inline-block;
+}
+
+.dot-1 {
+  background-color: #004aff;
+}
+
+
+
+
+/* /SLIDER */
