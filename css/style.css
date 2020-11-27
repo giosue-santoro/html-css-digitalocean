@@ -96,6 +96,10 @@ html, body {
   float: left;
 }
 
+.float-right {
+  float: right;
+}
+
 .google {
   height: 20px;
 }
@@ -147,34 +151,51 @@ html, body {
 /* /COMMON */
 
 /* NAVBAR */
-.navbar{
-  background-color: #fff;
-  border: none;
+.nav-row {
+  height: 60px;
 }
 
-.logo {
-  height: 20px;
+.nav-logo > img {
+  width: 158px;
 }
 
-.navbar li {
+.nav-row > ul > li {
   display: inline-block;
-  line-height: 80px;
-  padding-right: 10px;
-  color: #332e2e;
-  font-weight: bold;
+  padding-left: 7px;
+  padding-right: 7px;
+  vertical-align: middle;
+  line-height: 26px;
+  text-align: center;
+  font-size: 14px;
 }
 
-.btn-navbar {
-  color: #579aff;
-  border: 1px solid #579aff;
+.nav-row > ul > li:hover {
+  color: #2A80F9;
 }
 
-.lh-80 {
-  line-height: 80px;
+.nav-row > ul > li:active {
+  border: 1px solid #2A80F9;
+  border-radius: 5px;
 }
 
-.navbar-toggle {
-  margin-top: 23px;
+.nav-row {
+  padding-top: 15px;
+}
+
+.hamburger-icon > i {
+  font-size: 30px;
+  color: #2A80F9;
+}
+
+.hamburger-icon > i:hover {
+  text-shadow: 3px 3px 3px #5D6985;
+}
+
+.nav-button {
+  background-color: #fff;
+  color: #2A80F9;
+  border: 1px solid #2A80F9;
+  border-radius: 5px;
 }
 /* /NAVBAR */
 
