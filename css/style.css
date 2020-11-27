@@ -334,5 +334,11 @@ form a{
   padding-right: 15px;
 }
 
-
+.footer-lists li {
+  color: #7a849d;
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 3px 0;
+}
 /* FOOTER */
