@@ -51,8 +51,8 @@ html, body {
   margin-bottom: 100px;
 }
 
-.padding-right-100 {
-  padding-right: 100px;
+.padding-right-85 {
+  padding-right: 85px;
 }
 
 .color-blue {
@@ -100,14 +100,6 @@ html, body {
   float: right;
 }
 
-.google {
-  height: 20px;
-}
-
-.height-500 {
-  height: 500px;
-}
-
 .logos-height {
   height: 45px;
 }
@@ -124,16 +116,16 @@ html, body {
   padding: 10px 0;
 }
 
+.padding-left-15 {
+  padding-left: 15px;
+}
+
 .padding-bottom-20 {
   padding-bottom: 20px;
 }
 
 .padding-bottom-50 {
   padding-bottom: 50px;
-}
-
-.padding-left-15 {
-  padding-left: 15px;
 }
 
 .p-blue {
@@ -147,7 +139,6 @@ html, body {
 .inline-block {
   display: inline-block;
 }
-
 /* /COMMON */
 
 /* NAVBAR */
@@ -204,10 +195,6 @@ html, body {
   background-image: url("../img/bg-pesci-non-animato.jpg");
 }
 
-.jumbo-title {
-  color: #fff;
-}
-
 .jumbo-title h1 {
   font-size: 55px;
   font-weight: bold;
@@ -222,9 +209,12 @@ html, body {
   border-radius: 10px;
 }
 
+.google-icon {
+  height: 20px;
+}
+
 .form-btn-1 {
   background-color: #579aff;
-  color: #fff;
   outline: none;
   border: none;
   border-radius: 5px;
@@ -254,13 +244,8 @@ form a{
 /* JUMBOTRON */
 
 /* LOGOS SECTION */
-.grey-bg {
-  background-color: grey;
-}
-
 .logo-list > li {
   display: inline-block;
-  list-style-type: none;
 }
 
 .logos-padding {
@@ -292,6 +277,12 @@ form a{
 /* /SECTION 4 COL */
 
 /* FIRST SLIDER */
+.responsive-image {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+}
+
 .slider-dots > span {
   content: "";
   border: 1px solid #004aff;
@@ -304,13 +295,6 @@ form a{
 .dot-1 {
   background-color: #004aff;
 }
-
-.responsive {
-  width: 100%;
-  max-width: 600px;
-  height: auto;
-}
-
 /* /FIRST SLIDER */
 
 /* CUSTOMER SERVICE SECTION */
