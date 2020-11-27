@@ -3,24 +3,44 @@ html, body {
   overflow-x: hidden;
 }
 
-.margin-top-50 {
-  margin-top: 50px;
+.margin-0 {
+  margin: 0;
 }
 
-.margin-bottom-50 {
-  margin-bottom: 50px;
-}
-
-.margin-top-30 {
-  margin-top: 30px;
+.padding-0 {
+  padding: 0;
 }
 
 .margin-top-20 {
   margin-top: 20px;
 }
 
+.margin-top-30 {
+  margin-top: 30px;
+}
+
+.margin-top-50 {
+  margin-top: 50px;
+}
+
+.margin-top-80 {
+  margin-top: 80px;
+}
+
+.margin-bottom-10 {
+  margin-bottom: 10px;
+}
+
+.margin-bottom-20 {
+  margin-bottom: 20px;
+}
+
 .margin-bottom-30 {
   margin-bottom: 30px;
+}
+
+.margin-bottom-50 {
+  margin-bottom: 50px;
 }
 
 .margin-bottom-80 {
@@ -39,8 +59,20 @@ html, body {
   color: #004aff;
 }
 
+.color-light-blue {
+  color: #428fff;
+}
+
+.dark-blue {
+  color: #152c5a;
+}
+
 .color-white {
   color: #fff;
+}
+
+.bg-white {
+  background-color: #fff;
 }
 
 .color-green {
@@ -88,8 +120,16 @@ html, body {
   padding: 10px 0;
 }
 
-.dark-blue {
-  color: #152c5a;
+.padding-bottom-20 {
+  padding-bottom: 20px;
+}
+
+.padding-bottom-50 {
+  padding-bottom: 50px;
+}
+
+.padding-left-15 {
+  padding-left: 15px;
 }
 
 .p-blue {
@@ -99,7 +139,13 @@ html, body {
 .font-size-50 {
   font-size: 50px;
 }
+
+.inline-block {
+  display: inline-block;
+}
+
 /* /COMMON */
+
 /* NAVBAR */
 .navbar{
   background-color: #fff;
@@ -123,7 +169,6 @@ html, body {
   border: 1px solid #579aff;
 }
 
-
 .lh-80 {
   line-height: 80px;
 }
@@ -140,7 +185,6 @@ html, body {
 
 .jumbo-title {
   color: #fff;
-
 }
 
 .jumbo-title h1 {
@@ -186,7 +230,7 @@ form {
 form a{
   text-decoration: underline;
 }
-/* JUMBOTRON *//
+/* JUMBOTRON */
 
 /* LOGOS SECTION */
 .grey-bg {
@@ -242,7 +286,7 @@ form a{
 
 .responsive {
   width: 100%;
-  max-width: 400px;
+  max-width: 600px;
   height: auto;
 }
 
@@ -252,9 +296,43 @@ form a{
 .border-bottom-white {
   border-bottom: 1px solid #fff;
 }
-
-
-
-
-
 /* /CUSTOMER SERVICE SECTION */
+
+/* SECOND SLIDER */
+.slider-box {
+  width: 80%;
+  max-width: 600px;
+  height: auto;
+}
+
+.logo-height-slider {
+  height: 35px;
+}
+
+.vertical-align-slider {
+  vertical-align: 2.2em;
+}
+/* /SECOND SLIDER */
+
+/* FOOTER */
+.copyright {
+  color: #7a849d;
+}
+
+.proud {
+  color: #445477;
+}
+
+.footer-box {
+  display: inline-block;
+}
+
+.footer-box li {
+  display: inline-block;
+  color: #7a849d;
+  font-size: 20px;
+  padding-right: 15px;
+}
+
+
+/* FOOTER */
